@@ -6,7 +6,7 @@ NITT ECampus is a **MERN-based online learning platform** for NIT Trichy, offeri
 
 
 ## Technologies Used
-- **Frontend**: React.js
+- **Frontend**: React.js (Vite)
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB with Mongoose
 
@@ -50,11 +50,11 @@ EMAIL_PASS=your_email_password
 ```bash
 # Start the backend
 cd backend
-npm start
+nodemon index.js
 
 # Start the frontend
 cd ../frontend
-npm start
+npm run dev
 ```
 
 The frontend will be available at `http://localhost:3000` and the backend at `http://localhost:5000`.
